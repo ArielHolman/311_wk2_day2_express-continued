@@ -24,7 +24,7 @@ A web page has been created for us. Our job is to build the server.
   * Remember: `bodyParser.json()`
 
 ### Create express routes to get all things
-
+// import all of these into
 * Between lines 2 and 3, require the data for from the following .js files:
   * /data/contacts
   * /data/vehicles
@@ -38,7 +38,7 @@ A web page has been created for us. Our job is to build the server.
 * `res.json()` the appropriate array from the "require" statements above
 
 ### Create express routes to get one thing
-
+// build all 5 routes and controllers for one bit of data first (ie. contacts)
 * Add `app.get()` routes for the following:
   * "/contacts/:id"
   * "/vehicles/:id"
